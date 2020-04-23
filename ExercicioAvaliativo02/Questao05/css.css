@@ -1,0 +1,47 @@
+body {
+    font-family: "Segoe UI","Helvetica Neue",Arial;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.input_formulario{
+    display: inline-block;
+}
+
+.input_formulario label{
+    display: block;
+}
+
+.input_formulario input{
+    width: 450px;
+}
+
+button{
+    display: block;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #03A9F4;
+    border-color: #6c757d;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .input_formulario{
+        display: block;
+        margin: 5px;
+    }
+    .input_formulario input{
+        width: 100% !important;
+    }
+}
