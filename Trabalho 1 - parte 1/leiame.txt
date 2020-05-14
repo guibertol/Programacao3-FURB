@@ -1,0 +1,4 @@
+Imagem 1: Acesso do desktop
+Imagem 2: Acesso de um smartphone
+Imagem 3: Tela de login do desktop
+Imagem 4: Tela de login de um smartphone
