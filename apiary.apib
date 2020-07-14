@@ -1,0 +1,94 @@
+FORMAT: 1A
+HOST: http://localhost/trabalho3/api/
+
+# Trabalho3
+
+Essa documentação, ira auxiliar na utilização da API desenvolvida no trabalho 3.
+
+## Listar Alunos [/alunos]
+
+### Listar alunos cadastrados [GET]
+
++ Response 200 (application/json)
+
+        [
+        {
+            "id_aluno": 1,
+            "nome": "Guilherme",
+            "rg": "6420018",
+            "cpf": "09663875390",
+            "data_nascimento": "1998-08-05",
+            "email": "Guilherme",
+            "D_E_L_E_T_": null
+        },
+        {
+            "id_aluno": 2,
+            "nome": "asadasdasd",
+            "rg": "6420018",
+            "cpf": "09663853905",
+            "data_nascimento": "1999-08-05",
+            "email": "guiilherme.bertol@hotmail.com",
+            "D_E_L_E_T_": null
+        }
+        ]
+
+## Cadastrar Aluno [/aluno/cadastrar]
+### Cadastrar novo aluno [POST]
+
++ Request (application/json)
+
+        {
+            "nome": "Aluno teste",
+            "email": "email@email.com",
+            "rg": "1236502",
+            "cpf": "12365478965", 
+            "data_nascimento": "05/08/1999"
+        }
+
++ Response 200 (application/json)
+
+    + Headers
+
+            Location: /questions/2
+
+    + Body
+
+            {
+                "sucesso": "Salvo com sucesso"
+            }
+            
+## Editar Aluno [/aluno/editar]
+### Editar aluno [PUT]
+
++ Request (application/json)
+
+        {
+            "id_aluno": "1",
+            "nome": "Aluno teste",
+            "email": "email@email.com",
+            "rg": "1236502",
+            "cpf": "12365478965", 
+            "data_nascimento": "05/08/1999"
+        }
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "sucesso": "Editado com sucesso"
+            }
+            
+## Excluir Aluno [/aluno/excluir/{id}]
+### excluir aluno [GET]
+
++ Request (application/json)
+
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "sucesso": "Excluido com sucesso"
+            }
