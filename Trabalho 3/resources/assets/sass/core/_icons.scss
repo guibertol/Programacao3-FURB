@@ -1,0 +1,50 @@
+$path-font: '../fonts/';
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('#{$path-font}/icomoon.eot?8nzknl');
+  src: url('#{$path-font}/icomoon.eot?#iefix8nzknl') format('embedded-opentype'),
+  url('#{$path-font}/icomoon.ttf?8nzknl') format('truetype'),
+  url('#{$path-font}/icomoon.woff?8nzknl') format('woff'),
+  url('#{$path-font}/icomoon.svg?8nzknl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-right:before {
+  content: "\e901";
+}
+.icon-chevron-left:before {
+  content: "\e902";
+}
+.icon-chevron-down:before {
+  content: "\e903";
+}
+.icon-chevron-up:before {
+  content: "\e904";
+}
+.icon-location:before {
+  content: "\e601";
+}
+.icon-calendar:before {
+  content: "\e900";
+}
+.icon-checkmark:before {
+  content: "\e602";
+}
+
+

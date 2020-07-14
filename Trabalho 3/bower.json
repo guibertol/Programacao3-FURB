@@ -1,0 +1,28 @@
+{
+  "name": "artico-ppe",
+  "version": "0.0.0",
+  "authors": [
+    "Johnathan Douglas <johdougss@gmail.com>"
+  ],
+  "description": "artico-ppe portal pedido eletronico",
+  "keywords": [
+    "artico"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "eonasdan-bootstrap-datetimepicker": "~4.17.37",
+    "jquery": "~2.1.4",
+    "jquery-mask-plugin": "~1.13.4",
+    "selectize": "~0.12.1",
+    "jquery-maskmoney": "~3.0.2",
+    "sweetalert": "~1.1.3"
+  }
+}
